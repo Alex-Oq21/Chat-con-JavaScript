@@ -14,6 +14,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
 
+
     <script>
         // Your web app's Firebase configuration
         var firebaseConfig = {
@@ -33,11 +34,13 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-dark bg-dark">
-            <span id="nombreUsuario" class="navbar-brand">Chat</span>
-            <div class="botones"></div>
+            <span class="navbar-brand" id="nombreUsuario">Chat</span>
+            <div id="botones"></div>
         </nav>
-    </div>
+        <main id="contenidoProtegido">
 
+        </main>
+    </div>
     <script src="app.js"></script>
 </body>
 
