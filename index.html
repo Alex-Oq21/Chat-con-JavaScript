@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCsX1Oc3jMvQ3-CFFJGTijEFnLCsBkzYwY",
+            authDomain: "chat-con-javascript.firebaseapp.com",
+            databaseURL: "https://chat-con-javascript.firebaseio.com",
+            projectId: "chat-con-javascript",
+            storageBucket: "chat-con-javascript.appspot.com",
+            messagingSenderId: "434901249370",
+            appId: "1:434901249370:web:4b0090694681fd02f29763"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark">
+            <span id="nombreUsuario" class="navbar-brand">Chat</span>
+            <div class="botones"></div>
+        </nav>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
